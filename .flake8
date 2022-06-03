@@ -1,0 +1,8 @@
+[flake8]
+select=C,E,F,W,D,I,ANN,N,Q,DAR,S,B
+exclude = .git
+ignore=ANN101, ANN204, I900, DAR103, W503, E203, I100, I201, D415, S101
+docstring-convention=google
+max-line-length = 100
+format = | %(path)s | %(row)d | %(col)d | %(code)s | %(text)s |
+inline-quotes = "

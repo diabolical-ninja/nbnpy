@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+mypy_report.txt/index.txt

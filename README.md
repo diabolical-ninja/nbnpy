@@ -2,7 +2,8 @@
 
 [![Code Hygiene](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml/badge.svg)](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml)
 [![codecov](https://codecov.io/gh/diabolical-ninja/nbn/branch/main/graph/badge.svg?token=hyTE4HlIxK)](https://codecov.io/gh/diabolical-ninja/nbn)
-[![License][license badge]][license]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
 

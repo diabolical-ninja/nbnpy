@@ -1,8 +1,18 @@
 # NBN-Py
 
+![PyPi Version](https://img.shields.io/pypi/v/nbnpy)
+![Python Versions](https://img.shields.io/pypi/pyversions/nbnpy)
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+<br/>
+
+[![Code Hygiene](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml/badge.svg)](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml)
+[![codecov](https://codecov.io/gh/diabolical-ninja/nbn/branch/main/graph/badge.svg?token=hyTE4HlIxK)](https://codecov.io/gh/diabolical-ninja/nbn)
+![black codestyle](https://img.shields.io/badge/Code%20Style-Black-black)
+
+
 This package provides an unofficial wrapper of the National Broadband Network's (NBN) API. It allows you to programatically lookup address's and examine connection details such as the connection type (FTTP, HFC, etc), service type, connection status and more.
 <br/><br/>
-**Disclaimer:** _This project is not affiliated with Nox, and not an official Nox plugin._
+**Disclaimer:** _This project is not affiliated with the NBN._
 
 
 ## Installation

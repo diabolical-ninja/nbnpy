@@ -9,7 +9,7 @@
 
 This package provides an unofficial wrapper of the National Broadband Network's (NBN) API. It allows you to programatically lookup address's and examine connection details such as the connection type (FTTP, HFC, etc), service type, connection status and more.
 <br/><br/>
-**Disclaimer:** _This project is not affiliated with Nox, and not an official Nox plugin._
+**Disclaimer:** _This project is not affiliated with the NBN._
 
 
 ## Installation

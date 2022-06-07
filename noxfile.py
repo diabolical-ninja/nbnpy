@@ -29,6 +29,7 @@ def lint(session: Session) -> None:
     )
     session.run("flake8", "src/")
     session.run("flake8", "tests/")
+    session.run("flake8", "docs/conf.py")
 
 
 @session(python=PYTHON_VERSIONS)
@@ -86,3 +87,15 @@ def safety(session: Session) -> None:
         )
         session.install("safety")
         session.run("safety", "check", f"--file={requirements.name}", "--full-report")
+
+
+@session(python="3.8")
+def docs(session: Session) -> None:
+    """Build the docs.
+
+    Args:
+        session (Session): Nox Session
+    """
+    session.run("poetry", "install", external=True)
+    session.install("sphinx", "myst-parser", "sphinx-autodoc-typehints", "furo")
+    session.run("sphinx-build", "docs", "docs/_build")

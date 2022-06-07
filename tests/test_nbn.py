@@ -1,6 +1,6 @@
 """Unit tests for src/nbn.py."""
 
-from nbn.nbn import NBN
+from nbnpy.nbn import NBN
 
 
 class TestNBN:

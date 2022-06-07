@@ -2,7 +2,7 @@
 
 from datetime import datetime
 
-project = "nbn"
+project = "nbnpy"
 author = "Yass"
 copyright = f"{datetime.now().year}, {author}"
 language = "en"

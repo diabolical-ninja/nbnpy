@@ -7,7 +7,7 @@ This package provides an unofficial wrapper of the National Broadband Network's 
 
 ## Installation
 
-Install `nbn` from the Python Package Index:
+Install `nbnpy` from the Python Package Index:
 
 ```console
 $ pip install nbn
@@ -23,7 +23,7 @@ $ pip install nbn
 This example gets the LocationID for an address then looks up the NBN connection details for it.
 ```python
 import pprint
-from nbn.nbn import NBN
+from nbnpy.nbn import NBN
 
 nbn_client = NBN()
 location_ids = nbn_client.get_location_ids_from_address("1 Flinders Street, Melbourne VIC")

@@ -1,7 +1,7 @@
 Reference
 ===========
 
-.. automodule:: nbn.nbn
+.. automodule:: nbnpy.nbn
    :members:
    :undoc-members:
    :show-inheritance:

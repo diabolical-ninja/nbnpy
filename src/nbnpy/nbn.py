@@ -30,7 +30,7 @@ class NBN:
             dict: Locations & their ID's for addresses near the lat/long pairs
 
         Examples:
-            >>> from nbn.nbn import NBN
+            >>> from nbnpy.nbn import NBN
             >>> nbn_client = NBN()
             >>> location_ids = nbn_client.get_location_ids_from_lat_long(
                     -37.80978345290123, 144.96518949578348
@@ -60,7 +60,7 @@ class NBN:
             dict: Information regarding the connection details & type
 
         Examples:
-            >>> from nbn.nbn import NBN
+            >>> from nbnpy.nbn import NBN
             >>> nbn_client = NBN()
             >>> location_info = nbn_client.location_information("LOC000175860243")
             >>> bool(location_info)
@@ -86,7 +86,7 @@ class NBN:
             dict: Locations & their ID's the address
 
         Examples:
-            >>> from nbn.nbn import NBN
+            >>> from nbnpy.nbn import NBN
             >>> nbn_client = NBN()
             >>> location_ids = nbn_client.get_location_ids_from_address(
                     "1 Flinders Street, Melbourne VIC"

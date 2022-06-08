@@ -6,7 +6,7 @@
 <br/>
 
 [![Code Hygiene](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml/badge.svg)](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml)
-[![codecov](https://codecov.io/gh/diabolical-ninja/nbn/branch/main/graph/badge.svg?token=hyTE4HlIxK)](https://codecov.io/gh/diabolical-ninja/nbn)
+[![codecov](https://codecov.io/gh/diabolical-ninja/nbnpy/branch/main/graph/badge.svg?token=hyTE4HlIxK)](https://codecov.io/gh/diabolical-ninja/nbnpy)
 ![black codestyle](https://img.shields.io/badge/Code%20Style-Black-black)
 <br/>
 

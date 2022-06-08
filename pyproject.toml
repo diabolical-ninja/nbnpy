@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "nbnpy"
-version = "0.2.0"
+version = "0.3.0"
 description = "Unofficial NBN API wrapper"
 authors = ["Yass"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/diabolical-ninja/nbnpy"
+documentation = "https://nbnpy.readthedocs.io"
 
 
 [tool.poetry.dependencies]

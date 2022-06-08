@@ -8,6 +8,10 @@
 [![Code Hygiene](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml/badge.svg)](https://github.com/diabolical-ninja/nbnpy/actions/workflows/code_hygiene.yml)
 [![codecov](https://codecov.io/gh/diabolical-ninja/nbn/branch/main/graph/badge.svg?token=hyTE4HlIxK)](https://codecov.io/gh/diabolical-ninja/nbn)
 ![black codestyle](https://img.shields.io/badge/Code%20Style-Black-black)
+<br/>
+
+[![Documentation Status](https://readthedocs.org/projects/nbnpy/badge/?version=latest)](https://nbnpy.readthedocs.io/en/latest/?badge=latest)
+
 
 
 This package provides an unofficial wrapper of the National Broadband Network's (NBN) API. It allows you to programatically lookup address's and examine connection details such as the connection type (FTTP, HFC, etc), service type, connection status and more.

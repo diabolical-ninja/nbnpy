@@ -8,6 +8,8 @@ copyright = f"{datetime.now().year}, {author}"
 language = "en"
 html_theme = "furo"
 autodoc_typehints = "description"
+pygments_style = "sphinx"
+pygments_dark_style = "monokai"
 
 
 extensions = [

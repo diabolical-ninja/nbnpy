@@ -97,5 +97,7 @@ def docs(session: Session) -> None:
         session (Session): Nox Session
     """
     session.run("poetry", "install", external=True)
-    session.install("sphinx", "myst-parser", "sphinx-autodoc-typehints", "furo")
+    session.install(
+        "sphinx", "myst-parser", "sphinx-autodoc-typehints", "furo", "sphinx_copybutton"
+    )
     session.run("sphinx-build", "docs", "docs/_build")

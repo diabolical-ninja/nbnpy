@@ -3,3 +3,4 @@ furo==2022.6.4
 myst_parser==0.17.2
 sphinx-autodoc-typehints==1.18.2
 httpx==0.23.0
+sphinx-copybutton==0.5.0
